@@ -1,0 +1,69 @@
+.about-container{
+    margin: 3rem;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 8px 3px #c2b9b9;
+    display: flex;
+    padding: 2rem;
+}
+.skill-section{
+    width: 50%;
+}
+.about-section{
+    width: 50%;
+}
+
+.description{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.about-title{
+    font-size: 2rem;
+    position: relative;
+}
+.about-title::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+.about-dp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* border: 2px solid #1477d9; */
+    box-shadow: 0px 2px 5px 3px #8e9399;
+}
+.brief-intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-attrs{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.about-attr-subtitle{
+    font-weight: 300;
+}
+.progress-bar-parent{
+    border: 2px solid #cde1f8;
+    width: 85%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #cde1f8;
+}
+.progress{
+    border: 6px solid #0d6efd;
+    border-radius: 5px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.skill-type{
+    font-size: 1rem;
+    font-weight: 300;
+}

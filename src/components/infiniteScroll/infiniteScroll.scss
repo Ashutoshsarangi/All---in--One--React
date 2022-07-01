@@ -1,0 +1,19 @@
+.containerInfiniteScroll{
+    height: 500px;
+    border: 2px solid #95989b;
+    overflow: scroll;
+
+    .imageContainer{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-between;
+       
+
+        img{
+            width: 250px;
+            height: 200px;
+        }
+    }
+
+}

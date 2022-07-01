@@ -1,0 +1,20 @@
+.parent-container{
+    display: grid;
+    background-color: #e1e5e9;
+    position: relative;
+}
+.goto-top{
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    height: 60px;
+    border: none;
+    background-color: #0368cd;
+    color: white;
+    box-shadow: 1px -1px 8px 1px #123456;
+    margin: 30px;
+    text-decoration: none;
+    text-align: center;
+}

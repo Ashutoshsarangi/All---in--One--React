@@ -1,0 +1,8 @@
+
+export const studentActionTypes ={
+    SET_STUDENT: 'SET_STUDENT',
+    GET_STUDENT: 'GET_STUDENT',
+    UPDATE_STUDENT: 'UPDATE_STUDENT',
+    REMOVE_STUDENT: 'REMOVE_STUDENT',
+    GET_GRADES: 'GET_GRADES',
+}

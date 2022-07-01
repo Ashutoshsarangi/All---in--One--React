@@ -1,0 +1,26 @@
+.testimonial-container{
+    margin: 3rem;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 8px 3px #c2b9b9;
+    padding: 2rem;
+    position: relative;
+
+    .testimonial-title{
+        font-size: 2rem;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .testimonial-title::before{
+        content: "";
+        position: absolute;
+        height: 3px;
+        background-color: #0078ff;
+        width: 150px;
+        bottom: -12px;
+    }
+}

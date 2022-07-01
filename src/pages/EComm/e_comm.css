@@ -1,0 +1,17 @@
+.product{
+    background-color: #123456;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 17%;
+}
+.student{
+    background-color: #31e60d;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

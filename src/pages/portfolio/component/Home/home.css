@@ -1,0 +1,58 @@
+.home-container{
+    background-image: url('../../images/background_img.jpeg');
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+input[type=text]::placeholder {
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+}
+.sub-title{
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    border: 0;
+}
+.typed-cursor {
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.home-icon-container{
+    text-align: center;
+    margin: 30px;
+}
+.home-icon{
+    cursor: pointer;
+    margin: 17px;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.home-icon:hover{
+    color: #067ff8;
+    transition: all .5s ease-out;
+}
